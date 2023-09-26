@@ -1,0 +1,135 @@
+body
+{
+    background-color: #cef;
+    font-family: 'Trebuchet MS', arial, sans-serif;
+
+}
+main
+{
+    background-color: #9cf;
+    width: 50em;
+    height: 78em;
+    padding: 1em;
+    margin-left: 13em;
+    border: inset 1px black ;
+}
+
+header,footer, body > aside, body > nav
+{
+    background-color: #69f;
+}
+
+figcaption
+{
+    text-align: center;
+}
+
+body > nav
+{
+    width: 10em;
+    height: 15em;
+    position: fixed;
+    left: 0%;
+    top: 5em;
+}
+
+a:link, a:visited
+{
+    color: blue;
+}
+
+a:hover, a:active
+{
+    color: white;
+}
+
+
+
+ul
+{
+    list-style: disc url(images/maure.png);
+}
+nav > ul, aside > ul
+{
+    list-style: none;
+}
+
+
+
+
+
+main > aside > h4, main > aside >img
+{
+    display: inline-block;
+
+}
+main > aside
+{
+    padding: auto;
+    padding-left: 40%;
+    border: solid black 1px;
+    background-color: #cef;
+    position: sticky;
+    top: 0px;
+
+}
+
+
+
+header > figure
+{
+    display: inline-block;
+    margin: 0.4em;
+}
+
+main > figure
+{
+    float: right;
+    margin: 0;
+    margin-top: 2em;
+}
+
+footer
+{
+    width: auto;
+    height: 20em;
+    margin-top: 3em;
+}
+
+footer > img
+{
+    position: relative;
+    z-index: 1;
+    left: 7em;
+    top: 1em;
+    width: 18em;
+    height: auto;
+}
+img + img
+{
+    left: 5em;
+    top: 5em;
+    z-index: 0;
+}
+
+body > aside
+{
+    position: absolute;
+    top: 20em;
+    right: 0;
+    width: 8em;
+    height: 8em;
+    line-height: 3em;
+    border: solid black 1px;
+}
+
+h3,h2
+{
+    display: inline;
+    line-height: 3em;
+}
+h3
+{
+    font-weight:bolder;
+    color: #69f;
+}
